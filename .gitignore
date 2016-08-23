@@ -6,3 +6,4 @@ include
 .Python
 sbcs/sbcs/settings.py
 sbcs/db.sqlite3
+sbcs/biopages
