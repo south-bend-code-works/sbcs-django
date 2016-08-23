@@ -1,0 +1,8 @@
+*.sw[op]
+*.py[oc]
+bin
+lib
+include
+.Python
+sbcs/sbcs/settings.py
+sbcs/db.sqlite3
