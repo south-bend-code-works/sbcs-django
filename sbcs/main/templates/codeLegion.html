@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="/static/stylesheets/codeLegion.css">
+{% endblock %}
+
+{% block content %}
+  <div id="legionDiv1" class="row noMargin ">
+    <div id="descriptionDiv1" class="col-md-12">
+      <p class=" lead col-md-10 col-md-offset-1"><strong class="orangeText">Code Legion</strong>
+        is an alumni program that is designed to continue the tech and career development of our students.
+         This program takes place once a week and is available to those who have passed through the South Bend Code School’s introductory program.
+          After a student has gone through our initial program, we want to make sure that the educational opportunities we offer do not end there.
+           Code Legion gives students the opportunity to gain a deeper knowledge of coding and computer science and to apply their knowledge across different platforms.
+            Students will have access to unique opportunities such as...</p>
+        <h3 class="first futura orangeText">Presentations and demonstrations from regional technology professionals.</h3>
+        <h3 class="futura orangeText">Technology related community events such as hackathons at the University of Notre Dame.</h3>
+        <h3 class="futura orangeText">The ability to continue to work on their portfolio by building new applications.</h3>
+        <h2 class="futura centerH col-md-10 col-md-offset-1">Past Code Legion Projects:</h2>
+      </div>
+    </div>
+
+    <div id="legionDiv2" class="row noMargin ">
+      <h1 class="futura centerH">FalCam</h1>
+      <div id="descriptionDiv2" class="col-md-10 col-md-offset-1">
+        <p class="lead"><strong>The City of South Bend</strong> approached the
+          Code Legion in early 2016 to work on the FalCam, a live feed of a
+          peregrine falcon nest that sits above the County City Building in downtown
+          South Bend with over 10,000 active viewers. The students scoped the project, designed the look of the
+          website, and wrote the code that the city launched.
+          </p>
+      </div>
+      <div class="row noMargin">
+        <a href="https://falcam.southbendin.gov/"><div class="col-md-10 col-md-offset-1" id="falcam"></div></a>
+      </div>
+    </div>
+
+    <div id="legionDiv3" class="row noMargin">
+      <h1 class"futura centerH">Scraping Twitter &#38; Data Visualizations</h1>
+      <div id="descriptionDiv3" class="col-md-10 col-md-offset-1">
+        <p class="lead"><strong>Code Legion Students</strong> learned how to scrape Twitter
+        for tweets associated to a search term using a Python script. They then made
+        a data visualization of those tweets based on sentiment analysis. Students learned
+        about the Python coding language, API's, sentiment analysis, and data visualizations.</p>
+      </div>
+      <div class="row noMargin">
+        <div class="col-md-10 col-md-offset-1" id="dataViz"></div>
+      </div>
+    </div>
+{% endblock %}

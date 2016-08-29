@@ -1,0 +1,15 @@
+body{
+  background-color: green;
+  color: black;
+  text-align: center;
+  font-family: monospace;
+}
+
+
+button {
+  color: black;
+  border:none;
+  background-color: grey
+}
+
+.greydiv {background-color: black; color: white;

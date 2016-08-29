@@ -1,0 +1,20 @@
+body {
+background-image:url("stripes.jpg");
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+color:red;
+}
+h1 {
+  font-size:4em;
+}
+h2 {
+
+}
+
+
+.about {
+ color:red;
+text-align:left;
+font-size:2em
+}

@@ -1,0 +1,20 @@
+body {
+  background-image: url('./bostripe.png');
+  color: Black;
+}
+.about {
+  color:Black;
+}
+p {
+  color:white;
+  font-size: 5em;
+}
+
+a {
+  font-size: 6em;
+}
+
+h1 {
+  color: Green;
+  font-size: 6em;
+}

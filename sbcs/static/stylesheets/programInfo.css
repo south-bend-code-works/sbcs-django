@@ -1,0 +1,296 @@
+/*#programHeader {
+  height: 25em;
+  background:url("../images/programsheader.jpg") no-repeat top left;
+  background-size: cover;
+  background-position: 0 -37em;
+  color: white;
+  padding: 0;
+}*/
+
+/*.button {
+position: absolute;
+top: 50%;
+
+}*/
+
+/*li {margin-bottom: 4em; }*/
+
+.button
+{
+  width:340px;
+  height: 100px;
+  background-color: #d9d9d9;
+  color: #00bfff;
+  line-height: 20px;
+  padding-bottom: 2px;
+  vertical-align: middle;
+  font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  <!--font-weight: bold;-->
+  text-transform: none;
+  /*border:3px dotted #00BFFF;*/
+  margin-top: 2em;
+}
+.button:hover
+{
+  background-color: #00BFFF;
+  color: white;
+  margin-top: 2em;
+  /*border:3px dotted #F7931E;*/
+}
+
+
+.button2
+{
+  width:340px;
+  height: 100px;
+  background-color: #d9d9d9;
+  color: #F7931E;
+  line-height: 20px;
+  padding-bottom: 2px;
+  vertical-align: middle;
+  font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  <!--font-weight: bold;-->
+  text-transform: none;
+  /*border:3px dotted #F7931E;*/
+  margin-top: 2em;
+}
+.button2:hover
+{
+  background-color: #F7931E;
+  color: white;
+  margin-top: 2em;
+  /*border:3px dotted #00BFFF;*/
+}
+
+#contactForm{
+  text-align: center;
+  margin-top: 2em;
+}
+
+#contactForm form {
+  text-align: left;
+}
+
+#learningObjectives {
+  clear:both;
+  background-color: white;
+  color: black;
+  /*margin-top: 2em !important;*/
+  padding: 1em 0 2em 0;
+}
+
+#programOverview {
+  clear:both;
+  background-color: white;
+  color: black;
+  /*margin-top: 2em !important;*/
+  padding: 1em 0 2em 0;
+}
+
+#PPCP {
+  clear:both;
+  background-color: #F7931E;
+  color: white;
+  /*margin-top: 2em !important;*/
+  padding: 1em 0 2em 0;
+}
+
+#PPCP2 {
+  clear:both;
+  background-color: white;
+  color: black;
+  /*margin-top: 0em !important;*/
+  padding: 1em 0 2em 0;
+}
+
+#PPCP4 {
+  clear:both;
+  background-color: #00BFFF;
+  color: white;
+  /*margin-top: 2em !important;*/
+  padding: 1em 0 2em 0;
+}
+
+#buttonarea {
+  font-size: 55px;
+  padding: 15px 32px;
+  margin-top: 2em !important;
+  background-color: white;
+  color: #F7931E;
+}
+
+.wrapper {
+  text-align: center;
+
+}
+
+.sublist {
+  list-style:none;
+}
+
+.sublist li p {
+  margin: 0 auto !important;
+  font-weight: bold;
+}
+
+#buildStory2 {
+  /*padding-top: 1em !important;*/
+  clear:both;
+  background-color: #00BFFF;
+  color: white;
+}
+#buttonFiller {
+  padding-top: 1em !important;
+  clear:both;
+  background-color: white;
+  color: black;
+}
+
+#outer {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+#FBStory {
+  padding-top: 1em !important;
+  background-color: #00BFFF;
+  color: white;
+}
+
+/*#oStory {
+  padding-top: 1em !important;
+  background-color: white;
+  color: black;
+}*/
+
+#oStory2 {
+  /*padding-top: 1em !important;*/
+  background-color: white;
+  color: black;
+}
+
+#overview {
+  padding-top: 1em !important;
+  clear:both;
+  background-color: white;
+  color: black;
+}
+
+#programInfo {
+  padding-top: 1em !important;
+  clear:both;
+  background-color: #00BFFF;
+      /*background: linear-gradient(180deg, #F7931E, #00bfff, #00bfff,#F7931E);*/
+  color: white;
+}
+
+#programOffer {
+  padding-top: 1em !important;
+  clear:both;
+  background-color: #F7931E;
+      /*background: linear-gradient(180deg, #F7931E, #00bfff, #00bfff,#F7931E);*/
+  color: white;
+
+}
+
+
+#objectives {
+  /*padding-top: 1em !important;*/
+  background-color: #F7931E;
+  color: white;
+}
+
+#launchStory {
+  padding-top: 1em !important;
+  background-color: #00BFFF;
+  color: white;
+}
+
+
+#launchStory2 {
+  padding-top: 1em !important;
+  background-color: white;
+  color: black;
+
+}
+
+#timer {
+  padding-top: 1em !important;
+  background-color:#F7931E;
+  color: white;
+}
+
+
+
+/*#instDesc2 {
+  color: white;
+  background-color: gray;
+}*/
+
+/*.buildPic {
+  background:url('../images/google.png') no-repeat center;
+  height: 18em;
+  width: 100%;
+  background-size: cover;
+}*/
+
+.FBPic {
+  background:url('../images/Trip2fb.jpg') no-repeat left;
+  height: 18em;
+  width: 100%;
+  background-size: cover;
+}
+
+.CNPic {
+  background:url('../images/connor_nate_sign.JPG') no-repeat left;
+  height: 22em;
+  width: 100%;
+  background-size: cover;
+}
+
+.helperPic {
+  background:url('../images/helpers.JPG') no-repeat left;
+  height: 24em;
+  width: 100%;
+  background-size: cover;
+}
+
+
+.oPic {
+  background:url('../images/overview.jpg') no-repeat left;
+  height: 26em;
+  width: 100%;
+  background-size: cover;
+}
+
+.diagramPic {
+  background:url('../images/whatIget.png') no-repeat left;
+  height: 55em;
+  width: 100%;
+  background-size: cover;
+}
+
+.loPic {
+  background:url('../images/lo.jpg') no-repeat center;
+  height: 27em;
+  width: 80%;
+  background-size: cover;
+}
+
+.awardPic {
+  background:url('../images/award.jpg') no-repeat center;
+  height: 27em;
+  width: 80%;
+  background-size: cover;
+}
+
+.launchPic {
+  background:url('../images/launch.jpg') no-repeat left;
+  height: 18em;
+  width: 100%;
+  background-size: cover;
+}

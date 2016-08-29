@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+h2 {
+    font-size: 3em;
+    font-style: oblique;
+    color: red;
+}
+
+img {
+    height: 50%;
+    width: 75%;
+}
+
+#top {
+    background-color: white;
+}
+
+#tacos {
+    margin-left: 50%
+
+}
+
+#bell {
+  margin-right: 50%
+}
+
+#tech {
+  margin-left: 50%
+}

@@ -1,0 +1,554 @@
+#biosHeader {
+  height: 35em;
+  background:url("../images/htmlGame.jpg") no-repeat top left;
+  background-size: cover;
+  background-position: 0 -24em;
+  color: white;
+  padding: 0;
+}
+
+#biosHeader h1 {
+  font-size: 7em;
+  color: #white;
+  /*text-shadow: 1px 1px white;*/
+}
+
+#studentContainer {
+  width: 100%;
+  margin: 2em 0 0 0 !important;
+  text-align: center;
+  color: #E1931E;
+  font-family: Futura;
+  clear: both;
+
+}
+
+#studentContainer a:hover {
+  text-decoration: none !important;
+}
+
+.student {
+  width: 20%;
+  height: 250px;
+  margin: 0 auto;
+  padding: 0 auto;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+
+.name {
+  position: relative;
+  top: 75%;
+  padding: 0 2%;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+}
+
+
+
+/*==============JJC Cohort 1 2015===============*/
+#conner:hover {background-image:url('../images/conner.jpg');}
+#damali:hover {background-image:url('../images/damali.jpg');}
+#gabe:hover {background-image:url('../images/gabe.jpg');}
+#jakob:hover {background-image:url('../images/jakob.jpg');}
+#jason:hover {background-image:url('../images/jason.jpg');}
+#mariah:hover {background-image:url('../images/code_legion_2016_orange.png');}
+#marques:hover {background-image:url('../images/marques.jpg');}
+#mason:hover {background-image:url('../images/mason.jpg');}
+#nate:hover {background-image:url('../images/nate.JPG')}
+#raejaun:hover {background-image:url('../images/raejaun.jpg');}
+#trenton:hover {background-image:url('../images/trenton.jpg');}
+
+/*==============Trio 2016===============*/
+#esther:hover {background-image:url('../images/esther.jpg');}
+#gisella:hover {background-image:url('../images/gisella.jpg');}
+#lamyaa:hover {background-image:url('../images/lamyaa.jpg');}
+#mary:hover {background-image:url('../images/mary.jpg');}
+#rebekah:hover {background-image:url('../images/rebekah.jpg');}
+#satori:hover {background-image:url('../images/satori.jpg');}
+#tess:hover {background-image:url('../images/tess.jpg');}
+
+#esther {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/esther.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#gisella {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/gisella.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#lamyaa {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/lamyaa.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#mary {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/mary.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#rebekah {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/rebekah.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#satori {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/satori.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#tess {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/tess.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+
+#conner {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/conner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#damali {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/damali.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#gabe {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/gabe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#jakob {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/jakob.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#jason {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/jason.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#mariah {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/code_legion_2016_orange.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#marques {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/marques.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#mason {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/mason.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#nate {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/nate.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#raejaun {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/raejaun.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#trenton {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/trenton.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+/*==============BGC 2015===============*/
+#anyVid {background-image:url('../images/anyvid_logo.png');}
+#bendBash {background: #fa6900 url('../images/bendbash-logo.png') no-repeat center;}
+
+#bgc:hover {background-image:url('../images/boys-and-girls-club-logo.png');}
+#bj:hover {background-image:url('../images/BJ.JPG');}
+#camisa:hover {background-image:url('../images/Camisa.JPG');}
+#ciarra:hover {background-image:url('../images/Ciarra.JPG');}
+#cole:hover {background-image:url('../images/Cole.JPG');}
+#cristoval:hover {background-image:url('../images/Cristoval.JPG');}
+#pj:hover {background-image:url('../images/PJ.JPG');}
+
+#bgc {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/boys-and-girls-club-logo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+#bj {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/BJ.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#camisa {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Camisa.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#ciarra {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Ciarra.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#cole {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Cole.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#cristoval {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Cristoval.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+#pj {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/PJ.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+/*==============RCLC 2015===============*/
+
+#sbSolutions {background-image:url('../images/sbsolutions.png');}
+#findingYourDestination {background-image:url('../images/findingyourdestination.png');}
+#stopBullying {background-image:url('../images/stopbullying.png');}
+#positiveEffects {background-image:url('../images/positiveeffects.png');}
+
+
+#rclc:hover {background-image:url('../images/RCLC.jpg');}
+#ambria:hover {background-image:url('../images/Ambria.JPG');}
+#amiri:hover {background-image:url('../images/Amiri.JPG');}
+#antonio:hover {background-image:url('../images/Antonio.JPG');}
+#asante:hover {background-image:url('../images/Asante.JPG');}
+#braylon:hover {background-image:url('../images/Braylon.JPG');}
+#breauna:hover {background-image:url('../images/BreAuna.JPG');}
+#caribia:hover {background-image:url('../images/Caribia.JPG');}
+#cecilly:hover {background-image:url('../images/Cecilly.JPG');}
+#christian:hover {background-image:url('../images/Christian.JPG');}
+#dama:hover {background-image:url('../images/Dama.JPG');}
+#daniela:hover {background-image:url('../images/Daniela.JPG');}
+#david:hover {background-image:url('../images/David.JPG');}
+#dekane:hover {background-image:url('../images/Dekane.JPG');}
+#delaneo:hover {background-image:url('../images/Delaneo.JPG');}
+#florida:hover {background-image:url('../images/Florida.JPG');}
+#kiara:hover {background-image:url('../images/Kiara.JPG');}
+#maya:hover {background-image:url('../images/Maya.JPG');}
+#red:hover {background-image:url('../images/Red.JPG');}
+#ray:hover {background-image:url('../images/code_legion_2016_orange.png');}
+#sha-nia:hover {background-image:url('../images/Sha-Nia.JPG');}
+#skylar:hover {background-image:url('../images/Skylar.JPG');}
+#tommy:hover {background-image:url('../images/Tommy.JPG');}
+
+#ambria {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Ambria.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#amiri {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Amiri.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#antonio {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Antonio.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#asante {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Asante.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#braylon {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Braylon.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#breauna {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/BreAuna.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#caribia {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Caribia.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#cecilly {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Cecilly.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#christian {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Christian.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#dama {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Dama.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#daniela {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Daniela.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#david {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/David.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#dekane {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Dekane.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  overflow: hidden;
+}
+#delaneo {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Delaneo.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#florida {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Florida.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#kiara {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Kiara.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#maya {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Maya.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#ray {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/code_legion_2016_orange.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#red {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Red.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#sha-nia {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Sha-Nia.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#skylar {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Skylar.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+#tommy {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('../images/Tommy.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+/*==============Applications===============*/
+
+@keyframes animatedCode {
+	from { background-position: 10% 90%, 130% 50%, 100% 100%; }
+	to { background-position: 10% 70%, 130% 30%, 100% 60%; }
+}
+
+
+/*==================Media===============*/
+@media only screen and (max-width: 1450px) {
+
+  #biosHeader {
+    background-position: 0 -12em;
+  }
+
+}
+
+@media only screen and (max-width: 1450px) {
+#biosHeader {
+  height: 20em;
+  background:url("../images/htmlGame.jpg") no-repeat top left;
+  background-size: cover;
+  background-position: 0 -15em;
+  color: white;
+  padding: 0;
+}
+}
+
+@media only screen and (max-width: 900px) {
+  #biosHeader {
+    background-position: top center;
+    height: 15em;
+  }
+
+  #biosHeader h1 {
+    font-size: 4em;
+  }
+
+  #biosHeader {
+    height: 10em;
+    background:url("../images/htmlGame.jpg") no-repeat top left;
+    background-size: cover;
+    background-position: 0 -6.5em;
+    color: white;
+    padding: 0;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+  .student {
+    width: 25%;
+    height: 150px;
+  }
+
+  .name {
+    font-size: 1em !important;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  #biosHeader {
+    background-position: top center;
+    height: 15em;
+  }
+
+  #biosHeader h1 {
+    font-size: 4em;
+  }
+
+  #biosHeader {
+    height: 10em;
+    background:url("../images/htmlGame.jpg") no-repeat top left;
+    background-size: cover;
+    background-position: 0 -5em;
+    color: white;
+    padding: 0;
+  }
+
+}

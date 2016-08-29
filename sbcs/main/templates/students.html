@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="/static/stylesheets/students.css">
+{% endblock %}
+
+{% block content %}
+  <div class="row noMargin">
+    <div class="col-md-10 col-md-offset-1">
+      <h1 class="centerH futura">Click on a student&#146;s image below to see their bio page.</h1>
+    </div>
+  </div>
+
+  <div id="studentContainer" class="fullWidth">
+  </div>
+
+  <div  class="row noMargin ">
+    <div class="col-md-10 col-md-offset-1">
+		{% for student in students %}
+			<a href="{{ student.bioPage.link }}" id="stud{{ student.id }}" class="student">
+		      <h2 class="name">{{ student.firstName }}</h2>
+		    </a>
+		{% endfor %}
+    </div>
+  </div>
+{% endblock %}

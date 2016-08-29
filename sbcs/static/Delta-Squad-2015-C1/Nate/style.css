@@ -1,0 +1,101 @@
+body{
+  background-color: #202020;
+  color: white;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#start {
+  position: relative;
+  height: 100vh;
+}
+
+#startButton{
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#fordPic {
+  background-image: url('./img/mytruck.jpeg');
+}
+
+#jeepPic {
+  background-image: url('./img/Truck2.jpg');
+}
+
+#bigTruck {
+  background-image: url('./img/bigtruck.jpeg');
+}
+
+#truck4 {
+  background-image: url('./img/Truck4.jpg')
+}
+
+#truck5 {
+  background-image: url('./img/Truck5.jpg')
+}
+
+.square {
+  width:20vw;
+  height:20vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.row {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.WhatI{
+  color: blue;
+}
+
+.aboutMe{
+  background-color: red;
+}
+
+#bordered {
+  border: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 25%;
+  width: 50%;
+  font-size: 5em;
+  box-shadow: 15px 15px 30px 0px rgba(0,0,0,0.75) inset;
+  background-color: blue;
+}
+
+.links{
+  color: white;
+}
+
+.links:hover {
+  color: red;
+}
+
+.links:visited{
+  color:  #EEEED5;
+}
+
+.boxText{
+  background-color: #0059FF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius:50%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.4em;
+}
+
+#city{
+  text-shadow: 3px 3px #E60000;
+}

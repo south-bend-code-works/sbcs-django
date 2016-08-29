@@ -1,0 +1,57 @@
+
+
+#contactHeader {
+  height: 25em;
+  background:url("../images/travisatoffice.JPG") no-repeat 0 -5em;
+  background-size: cover;
+  /*background-position: 0 -2em;*/
+  color: white;
+  padding: 0;
+}
+
+
+#emailUs {
+  margin-top: 2em !important;
+}
+
+#contactForm {
+  margin-bottom: 2em !important;
+}
+
+/*==================Media===============*/
+/*@media only screen and (max-width: 1450px) {
+
+}*/
+
+@media only screen and (max-width: 900px) {
+
+  #contactHeader {
+    height: 20em;
+    background-position: 0;
+  }
+
+  #contactHeader h1 {
+    font-size: 4em;
+  }
+
+  #contactUs h1 {
+    font-size: 2em !important;
+  }
+
+
+  #emailUs h1 {
+    font-size: 2em;
+  }
+
+  #emailUs h2 {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+}

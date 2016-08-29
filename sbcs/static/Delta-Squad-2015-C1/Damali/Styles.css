@@ -1,0 +1,36 @@
+body {
+  background-color: #ffe6f3;#ffe6f3
+  color:blue;
+  font-family: cursive;
+  text-align:center;
+}
+h1 {
+  background-color:#cce6ff;
+}
+h2 {background-color: #5bd7d7;
+color: #6666ff;}
+div {
+  display: inline-block;
+    background-color: #ccffee;
+    width: 300px;
+    padding: 25px;
+    border: 25px blue;
+    margin: 25px;
+}
+
+#about {
+  color:#5bd7d7;
+}
+
+.whatI {
+  color:#5bd7d7;
+}
+img {
+  display: inline-block;
+}
+.violence{
+  display: block;
+}
+.pictures{
+  display:center
+}

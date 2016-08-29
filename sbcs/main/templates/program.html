@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="static/stylesheets/students.css">
+  <link rel="stylesheet" href="static/stylesheets/projects.css">
+  <link rel="stylesheet" href="static/stylesheets/program.css">
+  <link rel="stylesheet" href="static/stylesheets/press.css">
+{% endblock %}
+
+{% block content %}
+  <div id="FlyerBackgroundDiv">
+    <div id="launchStory2" class="col-md-12 ">
+      <div id="outer" style="width:100%">
+        <form action="{% url 'apply' %}">
+          <input type="submit" value="APPLY NOW" class="buttonOEtop"/>
+        </form>
+    </div>
+  </div>
+
+  <div class="row noMargin ">
+
+    <div id="objectives1" class="col-md-6 col-md-offset-1">
+      <h1 class="futura">Fall Program Information</h1>
+      <h3 class="futura"><i><strong>This Package Includes</i></strong></h3>
+      <h4>10 weeks of class</h4>
+      <h4>Trip to a major tech company</h4>
+      <h3 class="futura"><i><strong>Location</strong></i></h3>
+      <h4><i>Union Station Technology Center</i></h4>
+      <h4>506 W South St, South Bend, IN 46601</h4>
+
+      <h3 class="futura"><i><strong>Dates</strong></i></h3>
+      <h4>Twice per week</h4>
+      <h4>September 12 - November 17</h4>
+      <ul>
+        <li><h5>Age group 12-15: Mondays & Wednesdays</h5></li>
+        <li><h5>Age group 16-19: Tuesdays & Thursdays</h5></li>
+      </ul>
+      <h3 class="futura"><i><strong>Time of Class Meetings</strong></i></h3>
+      <h4>5:30pm-8:00pm</h4>
+      <!-- <h3 class="futura"><i><strong>Application Closes</strong></i></h3>
+      <h4>August 15th, 2016</h4> -->
+      <h3 class="futura"><i><strong>Cost</strong></i></h3>
+      <h4 >$1,000.00 </h4>
+      <p><i> *Financial Aid available for those who qualify.<br>
+         Payment plans available for all.</i></p>
+      <h3 class="futura">Space is limited</h3>
+      <h2 class="futura">Sign up today to reserve your spot!</h2>
+    </div>
+  </div>
+</div>
+
+
+<div id="PPCP4" class="row noMargin ">
+  <h1 class="futura centerH"> Student Experience</h1>
+
+  <div id="buildStory" class="col-md-4">
+    <div class="buildPic"></div>
+    <h3 class="futura centerH">Learn how to program</h3>
+    <p>Students learn how to build web applications. No experience, no problem.
+      We cover the fundamental skills needed to get started building your own
+      applications and websites in class.</p>
+    </div>
+
+    <div id="launchStory" class="col-md-4">
+      <div class="whiteboardPic"></div>
+      <h3 class="futura centerH ">Build an app</h3>
+      <p>Students will focus on using technology to solve a real world problem.
+        They will be challenged to think beyond basic learning and build an application
+        that has the potential for sustainability and usability.</p>
+      </div>
+
+      <div id="FBStory" class="col-md-4">
+        <div class="FBPic"></div>
+        <h3 class="futura centerH ">Visit a major tech company</h3>
+        <p>South Bend Code School's program wraps up with a trip to a major tech company
+          where students present the applications that they have built to a panel of
+          professionals from the tech industry. Past visits have been to companies
+          such as Facebook and Google.</p>
+        </div>
+      </div>
+
+<div class="row noMargin">
+
+  <div id="portfolioDiv" class="col-md-5 col-md-offset-1">
+    <div class="portfolioOfWorkPic"></div>
+  </div>
+
+  <div class="col-md-4 col-md-offset-1" id="portfolio">
+    <div class="row noMargin">
+      <h1 class="futura">Portfolio of Work</h1>
+      <ul>
+        <li><p>Create and publish a <a href="./bios.html">biographic website</a>.</p></li>
+        <li><p>Work in a team to design, develop, and deploy an <a href="./projects.html">online solution
+          to a real world problem</a>.</p></li>
+          <li><p>Present their application to an audience of technology professionals.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolioDiv" class="row noMargin">
+    <div class="col-md-5 col-md-offset-1" id="legionDiv">
+      <div class="row noMargin" >
+        <div id="codeLegion" class="col-md-4"></div>
+        <div class="col-md-7 legionBlock">
+          <h1>Code Legion</h1>
+          <p>Students who complete our core program are able to join
+            the <a href="./codeLegion.html">Code Legion</a>, an alumni program that consists
+            of additional learning opportunities and experiences.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="connorAndTravisPic"></div>
+      </div>
+
+    </div>
+
+    <div id="PPCP" class="row noMargin ">
+        <div id="outerBottom" style="width:100%">
+          <form action="./apply.html">
+            <input type="submit" value="APPLY NOW" class="buttonOEbottom"/>
+          </form>
+      </div>
+    </div>
+{% endblock %}

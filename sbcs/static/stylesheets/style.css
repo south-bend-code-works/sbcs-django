@@ -1,0 +1,323 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 !important;
+}
+
+.orangeText {
+  color: #F7931E;
+}
+
+.blueText {
+  color: #00BFFF;
+}
+
+.bandOrange {
+  background-color: #F7931E;
+  color: white;
+}
+
+.bandBlue {
+  background-color: #00BFFF;
+  color: white;
+}
+
+footer{
+  text-align: center;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: #F7931E !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: lightgray !important;
+}
+
+.nav-pills>li>a {
+    /*border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;*/
+    border-radius: 0 !important;
+}
+
+.nav .inner-social {
+  width: 6em;
+  height: 35px;
+}
+
+.noMargin {
+  margin: 0 auto !important;
+}
+
+.noPadding {
+  padding: 0 !important;
+}
+
+.largeh1 {
+  font-size: 8em;
+  text-align: center;
+  /*margin-top: 1em;*/
+}
+
+.normal1 {
+  font-size: 5em;
+  text-align: center;
+  /*margin-top: 1em;*/
+}
+
+#space{
+  margin-bottom: 20px;
+}
+
+.centerH {
+  text-align: center;
+}
+
+.futura {
+  font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
+}
+
+.gill-sans{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.cookie {
+  font-family: 'Cookie';
+  font-size: 4em;
+  color: #000000;;
+}
+
+.grayBody {
+  color: gray;
+}
+
+a {
+  color: black !important;
+  font-weight: bold;
+}
+
+.thumbnail {
+  border: none !important;
+}
+
+#main-logo {
+  height: 37em;
+  background:
+    url("../images/SBCS-Logo-Banner-Big.png") no-repeat center,
+    url("../images/jump.jpg") no-repeat center;
+  background-size: 90%, cover;
+  /*padding: 0 !important;*/
+    /*background-attachment: fixed;*/
+
+}
+
+.social {
+  height: 5em;
+  display: inline-block;
+  margin-top: 30em;
+}
+
+.socialContainer {
+  margin-bottom: 3em;
+}
+
+.inner-social {
+  height: 100%;
+  width: 100%;
+  color: transparent !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#twitter {background-image:url('../images/twitter.png');}
+#instagram {background-image:url('../images/instagram.png');}
+#facebook {background-image:url('../images/facebook.png');}
+#github {background-image:url('../images/github.png');}
+#medium {background-image:url('../images/medium.png');}
+
+#missionStatement {
+  text-align: justify;
+}
+
+#missionStatement h1 {
+  font-size: 2.6em !important;
+  text-align: center;
+}
+
+#missionStatement p {
+  margin-bottom: 15px!important;
+  font-size: 1.6em !important;
+}
+
+#Announcement h1 {
+  margin-top: 1em;
+  font-size: 2.3em;
+}
+
+#bios {
+  height: 22em;
+  background:linear-gradient(rgba(255, 102, 0, 0.9),rgba(255, 102, 0, 0.2)),url("../images/collage.jpg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+#bios h1 {
+  font-size: 7em;
+  text-align: center;
+}
+
+#bios p {
+  text-align: center;
+  font-size: 2em;
+}
+
+#mainProjectsImage {
+  height: 22em;
+  background:linear-gradient(rgba(0, 191, 255, 0.9),rgba(0, 191, 255, 0.2)),url("../images/sbourtown.jpg") no-repeat;
+  background-size: cover;
+  background-position: 40% 40%;
+  background-attachment: fixed;
+  color: white;
+}
+
+#mainProjectsImage h1 {
+  font-size: 7em;
+  text-align: center;
+}
+
+#mainProjectsImage p {
+  text-align: center;
+  font-size: 2em;
+}
+
+#flyerImage {
+  padding: 0;
+  /*background:linear-gradient(to left top,rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.5)),url("../images/flyer.jpg") no-repeat;*/
+  /*background:url("../images/flyer.jpg") no-repeat;*/
+  background:none;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: black;
+}
+
+
+#flyerImage h1 {
+  font-size: 7em;
+  text-align: center;
+}
+
+#flyerImage p {
+  text-align: center;
+  font-size: 2em;
+}
+
+#whiteSpace{
+  margin-bottom: 10px;
+  color: white;
+  height: 4px;
+}
+
+#ourStudents {
+  text-align: justify;
+}
+
+#ourStudents h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
+/*==================Summer of Code===============*/
+
+#summerofcode h1 {
+  font-size: 3em;
+}
+
+#summerofcode p {
+  text-align: justify;
+}
+
+#summerofcode h4 {
+  text-align: center;
+}
+
+#summerofcode ul {
+  font-size: 2em;
+  margin-left: 30%;
+}
+
+#summerofcode a {
+  color: gray !important;
+  text-decoration: none;
+}
+
+#summerofcode a:hover {
+  color: #F7931E !important;
+}
+
+
+
+
+/*==================Media===============*/
+@media only screen and (max-width: 1450px) {
+
+  #mainProjectsImage {
+    background-position: 33% 33%;
+  }
+
+  #flyerImage {
+    background-position: 33% 33%;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  #bios h1, #mainProjectsImage h1, flyer h1 {
+    font-size: 5em;
+  }
+
+  #missionStatement h1 {
+    margin-top: 2em;
+  }
+
+  #summerofcode ul {
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  #main-logo {
+    height: 20em;
+  }
+
+  #bios h1, #mainProjectsImage h1, flyerImage h1 {
+    font-size: 3em;
+  }
+
+  #missionStatement h1 {
+    margin-top: 1em;
+  }
+
+  .cleanForm {
+      width: 450px;
+
+  }
+
+
+}

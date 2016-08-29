@@ -1,0 +1,48 @@
+body{
+  background-color: black;
+  color: #E20915;
+font-family: cursive;
+text-align: center;
+
+margin:0;
+
+}
+a{display: block;
+background-color: black;
+width: 25%;
+color: lightgrey;
+}
+
+
+p{ color: lightgrey;
+margin:1px;
+}
+#youtube{margin-left: 50%;}
+
+#facebook{margin-left: 25%;}
+
+#bullslink{margin-left: 0%;}
+
+#spotify{margin-left: 100%;}
+img{
+  width: 30%;
+  height:30%;
+}
+#bulls { width: 40%;
+
+}
+
+h1 {
+  font-size: 25px;
+  }
+ .blackdiv { background-color: black; color: lightgrey;
+ }
+
+.reddiv { background-color: red; color: lightgrey;
+}
+
+#links {
+  background-color: black;
+  padding-left: 45%;
+
+}

@@ -1,0 +1,73 @@
+#pressHeader {
+  height: 25em;
+  background:url("../images/pjandciarra.jpg") no-repeat top left;
+  background-size: cover;
+  background-position: 0 -25em;
+  color: white;
+  padding: 0;
+}
+
+
+#pressContainer {
+  height: 100%;
+  clear: both;
+}
+
+.vid {
+  height: 100%;
+  margin-top: 2em;
+}
+
+.pressRow {
+  height: 20em;
+}
+
+/*.comPartner {*/
+  /*height: 100%;*/
+  /*margin-top: 2em;
+  background-size: cover;
+  background-clip:content-box;
+  height: 180px;
+
+}*/
+
+
+.comPartner h1 {
+  padding: 0.2em 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+
+}
+
+
+
+/*==================Media===============*/
+@media only screen and (max-width: 1450px) {
+  #pressHeader {
+    height: 25em;
+    background-position: 0 -25em;
+  }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+  #pressHeader {
+    height: 20em;
+    background-position: 0 0em;
+  }
+
+  .comPartner {
+    /*height: 100%;*/
+    margin-top: 2em;
+    background-size: contain;
+    background-clip:content-box;
+  height: 80px;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+}

@@ -1,0 +1,150 @@
+/*==================Extra spacing============*/
+
+#spacing{
+  margin-bottom: 40px;
+}
+
+/*==================Vid============*/
+
+iframe {
+  width: 80%;
+  height: 550px;
+  margin: 2% 10% 0 10%;
+}
+
+
+/*================= About the Program ================*/
+
+#aboutTheProgram {
+  margin-top: 1.5em !important;
+  text-align: justify;
+}
+
+#aboutTheProgram h3 {
+  margin: 1em 0;
+}
+
+/*==========================Diversity===============*/
+#diversity {
+  text-align: justify;
+}
+
+#myDoughnutMin, #myDoughnutFem {
+  /*margin-left: 33%;*/
+  display: inline-block;
+}
+
+
+#femStudentStats, #minStudentStats {
+  /*text-align: center;*/
+    display: inline-block;
+}
+
+/*==================students=================*/
+
+#stDesc h1 {
+  margin-top: 2.5em;
+}
+
+#studentImage {
+  background:url('../images/masonanddamali.jpg') no-repeat center;
+  margin: 1em 0 !important;
+  height: 23em;
+  width: 100%;
+  background-size: cover;
+}
+
+/*==================instructors=================*/
+
+#aboutHeader {
+  height: 25em;
+  background:url("../images/groupShot.JPG") no-repeat top left;
+  background-size: cover;
+  background-position: 0 -25em;
+  color: white;
+  padding: 0;
+}
+
+#instructorImage {
+  background:url('../images/davidInstructing.JPG') no-repeat center;
+  margin: 1em 0 !important;
+  height: 23em;
+  width: 100%;
+  background-size: cover;
+}
+
+#alexSejdinaj {background-image: url('../images/asejdinaj.jpg');}
+#alexLiggins {background-image: url('../images/aliggins.jpg');}
+#chrisFrederick {background-image: url('../images/cfrederick.png');}
+#davidMattia {background-image: url('../images/dmattia.jpg');}
+#brandonRich {background-image: url('../images/brich.jpg');}
+
+/*==================Community Partners============*/
+
+#communityPartners {
+  margin-bottom: 20px;
+}
+
+.comPartner {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background-size: contain !important;
+  background-clip:content-box;
+  height: 100px;
+}
+
+.WorkOne {background: url('../images/workonelogo.jpg') no-repeat center;}
+.RCLC {background: url('../images/rclc.jpg') no-repeat center;}
+.JJC {background: url('../images/jjc.png') no-repeat center;}
+.BAGCSJ{background: url('../images/BAGCSJ.jpg') no-repeat center;}
+.bethel{background: url('../images/BethelCollege.jpg') no-repeat center;}
+.JAG {background: url('../images/JAG.jpeg') no-repeat center;}
+.cityofSB{background: url('../images/sbSeal.png') no-repeat center;}
+.metronet{background: url('../images/metronet.jpeg') no-repeat center;}
+.library{background: url('../images/library.png') no-repeat center;}
+.commFoundation{background: url('../images/commFoundation.jpg') no-repeat center;}
+/*==================Media===============*/
+@media only screen and (max-width: 1450px) and (min-width: 1020px){
+  #aboutHeader {
+    height: 25em;
+    background-position: 0 -25em;
+  }
+
+}
+
+@media only screen and (max-width: 1450px) and (min-width: 1000px){
+  #aboutHeader {
+    height: 25em;
+    background-position: 0 -25em;
+  }
+
+  /*.commFoundation{
+    height:50px;
+    width:50px;
+  }*/
+}
+
+@media only screen and (max-width: 900px) {
+  #aboutHeader {
+    height: 20em;
+    background-position: 0 0em;
+  }
+
+  iframe {
+    width: 80%;
+    height: 300px;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .largeh1 {
+    font-size: 4em !important;
+  }
+
+  iframe{
+    width: 100%;
+    margin:0;
+    height: 240px;
+  }
+}

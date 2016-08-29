@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="/static/stylesheets/students.css">
+  <link rel="stylesheet" href="/static/stylesheets/contact.css">
+  <link rel="stylesheet" href="/static/stylesheets/program.css">
+  <link rel="stylesheet" href="/static/stylesheets/apply.css">
+{% endblock %}
+
+{% block content %}
+  <div id="applyUs" class="row noMargin">
+    <div class="col-md-10 col-md-offset-1">
+      <h1 class="centerH futura">Open Enrollment Application</h1>
+    </div>
+  </div>
+
+  <div class="row padded noMargin">
+
+    <div class="form-group">
+      <h3 class="centerH futura">Student Information</h3>
+    </div>
+
+    <div class="col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 col-sm-12">
+      <form action="https://formspree.io/info@southbendcodeschool.com" class="cleanForm" method="POST">
+        <div class="form-group ">
+          <label for="exampleInputSection">Age Group</label> <p></p>
+          <input type="radio" name="Section" value="Age 12-15 (M/W 5:30pm-8:00pm)"> 12-15 <i>( M/W 5:30pm-8:00pm)</i><br>
+          <input type="radio" name="Section" value="Age 16-19 (T/Th 5:30pm-8:00pm)"> 16-19 <i>(T/R 5:30pm-8:00pm)</i><br>
+        </div>
+
+
+        <div class="nameDiv">
+                <div class="form-group" style="float: left;" >
+            <label for="exampleInputName1">First Name</label>
+            <input type="text" size="25" class="form-control" name="First" id="exampleInputFirst1" placeholder="First Name">
+          </div>
+                <div class="form-group" style="float: right;">
+            <label for="exampleInputName1">Last Name</label>
+            <input type="text" size="25" class="form-control" name="Last" id="exampleInputLast1" placeholder="Last Name">
+          </div>
+        </div>
+
+        <div class="phoneEmailDiv">
+          <div class="form-group" style="float: left;">
+            <label for="exampleInputEmail1">Email Address</label><br>
+            <i>(Not needed if under 18 yrs old)</i>
+            <input type="email"  size="25" class="form-control" name="Applicant Email" id="exampleInputEmail1" placeholder="applicant@email.com">
+
+          </div>
+          <div class="form-group" style="float: right;">
+            <label for="exampleInputnumber">Phone Number</label><br>
+            <i>(Not needed if under 18 yrs old)</i>
+            <input type="tel" size="25" class="form-control" name="Phone" id="exampleInputnumber" placeholder="(123) 456-7890">
+          </div>
+        </div>
+
+        <div class="form-group" style=""clear:both;"&nbsp;">
+          <label for="exampleInputcommunication">What is your preferred method of communication?</label><br>
+          <i>(not needed if under 18 years of age)</i><br>
+          <input type="radio" name="communication" value="email"> Email<br>
+          <input type="radio" name="communication" value="call" > Phone<br>
+          <input type="radio" name="communication" value="text"> Text<br>
+        </div>
+
+        <div class="form-group" style="float: left;">
+          <label for="exampleInputDOB">Date of Birth</label>
+          <input type="Date" class="form-control" size="30" name="DOB" id="exampleInputDOB" placeholder="MM/DD/YYYY">
+        </div>
+        <div class="form-group" style="clear:both;"&nbsp;>
+          <label for="exampleInputGender">Gender Identity</label> <p></p>
+          <input type="radio" name="Gender" value="Male" > Male<br>
+          <input type="radio" name="Gender" value="Female"> Female<br>
+          <input type="radio" name="Gender" value="Other"> Prefer not to disclose<br>
+        </div>
+        <div class="form-group" style="clear:both;"&nbsp;>
+          <label for="exampleInputEthnicity">Ethnicity</label> <p></p>
+          <select>
+            <option selected disabled >Select option below</option>
+            <option name="Ethnicity" value="White">White</option>
+            <option name="Ethnicity" value="Hispanic/Latino">Hispanic/Latino</option>
+            <option name="Ethnicity" value="Black/African American">Black/African American</option>
+            <option name="Ethnicity" value="Native American/Alaska Native">Native American/Alaska Native</option>
+            <option name="Ethnicity" value="Asian/Pacific Islander">Asian/Pacific Islander</option>
+            <option name="Ethnicity" value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputschool">Are you currently enrolled in school?</label> <p></p>
+          <input type="radio" name="School" value="yes" > Yes<br>
+          <input type="radio" name="School" value="no"> No<br>
+        </div>
+
+        <div class="form-group">
+          <h3 class="centerH futura">Student Information (cont.)</h3>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputA1">Why are you applying to South Bend Code School? </label>
+          <!-- <textarea class="form-control" rows="3" name="Why you are applying" placeholder="Max: 200 charcters"></textarea> -->
+          <textarea class="form-control" id="textarea" rows="3"  name="Why you are applying" maxlength="300" ></textarea>
+          <i><div id="textarea_feedback"></div></i>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputA2">Do you have any previous experience with technology? Use the space below to
+            elaborate on that experience if applicable. It is not required for students to have prior experience with
+            technology to be a part of the class. SBCS would just like to know more about the backgrounds of students
+            who are applying.</label>
+          <textarea class="form-control" id="textarea2" rows="3"  name="Programming XP" maxlength="300"></textarea>
+          <i><div id="textarea_feedback2"></div></i>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputA5">How did you hear about us?</label>
+          <textarea class="form-control" id="textarea3" rows="3"  name="How you found out about SBCS" maxlength="300"></textarea>
+          <i><div id="textarea_feedback3"></div></i>
+        </div>
+
+        <div class="form-group">
+          <h3 class="centerH futura">Parent/Legal Guardian Information</h3>
+          <p class="centerH"><i>*For participants under 18 yrs old</i></p>
+        </div>
+
+        <div class="form-group" style="float: left;">
+          <label for="exampleInputName1">First Name</label>
+          <input type="text" size="25" class="form-control" name="Parent First" id="exampleInputFirst2" placeholder="First Name">
+        </div>
+        <div class="form-group" style="float: right;">
+          <label for="exampleInputName1">Last Name</label>
+          <input type="text" size="25" class="form-control" name="Parent Last" id="exampleInputLast2" placeholder="Last Name">
+        </div>
+        <div class="form-group" style="float: left;">
+          <label for="exampleInputEmail1">Email Address</label>
+          <input type="email" size="25" class="form-control" name="Parent Email Address" id="exampleInputEmail2" placeholder="parent_guardian@email.com">
+        </div>
+        <div class="form-group" style="float: right;">
+          <label for="exampleInputnumber">Phone Number</label>
+          <input type="tel" size="25" class="form-control" name="Parent Phone Number" id="exampleInputnumber2" placeholder="(123) 456-7890">
+        </div>
+
+        <div class="form-group" style=""clear:both;"&nbsp;">
+          <label for="exampleInputcommunication">What is your preferred method of communication?</label> <p></p>
+          <input type="radio" name="communicationParent" value="email"> Email<br>
+          <input type="radio" name="communicationParent" value="call" > Phone<br>
+          <input type="radio" name="communicationParent" value="text"> Text<br>
+        </div>
+
+        <div class="form-group" style="float:left;">
+          <label for="exampleInputFinAid">Would you like to receive more information on Financial Aid for Code School?</label><br>
+          <input type="radio" name="finAidInfo" value="yes">Yes<br>
+          <input type="radio" name="finAidInfo" value="no">No<br>
+        </div>
+
+        <!--  Modal -->
+        <!-- Large modal -->
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg">Financial Aid</button>
+
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content finaidModal">
+              <h1>Financial Aid</h1>
+              <p class="lead">Through a great opportunity provided by St. Joseph County Metronet,
+              South Bend Code School is able to offer a <strong class="orangeText">limited number
+              of scholarships</strong> for students interested in joining South Bend Code School
+              who may not have the economic ability to apply. By selecting "yes" to
+              the previous question you will receive more information via email about how
+              to apply for these opportunities after submitting your application.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputA7">Any comments or questions for us?</label>
+          <textarea class="form-control" rows="3" name="Any more questions or comments"></textarea>
+        </div>
+        <div class="wrapper" id="space">
+          <button type="submit" class="btn-lg btn-warning" value="Send">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

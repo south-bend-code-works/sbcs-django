@@ -1,0 +1,80 @@
+#projectsHeader {
+  height: 25em;
+  background:linear-gradient(rgba(0, 191, 255, 0.9),rgba(0, 191, 255, 0.2)),url("../images/sbourtown.jpg") no-repeat top left;
+  background-size: cover;
+  background-position: 0 -25em;
+  color: white;
+  padding: 0;
+}
+
+#proDesc {
+  text-align: justify;
+  margin-top: 4em !important;
+}
+
+#projectsHeader h1 {
+  font-size: 7em;
+  text-align: center;
+}
+
+
+#projectsContainer {
+  margin: 0 auto !important;
+  padding: 0 !important;
+  clear: both;
+}
+
+#projectsContainer h1 {
+  font-family: Futura;
+}
+
+#projectsContainer p {
+  color: gray;
+}
+
+.projectImage {
+  height: 15em;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gray {
+  background-color: #F7F5F2 !important;
+}
+
+.padded {
+  padding: 1em 0;
+}
+
+#positiveEffects {background-image:url('../images/positiveeffects.png');}
+#sbSolutions {background-image:url('../images/sbsolutions.png');}
+#findingYourDestination {background-image:url('../images/findingyourdestination.png');}
+#stopBullying {background-image:url('../images/stopbullying.png');}
+#anyVid {background-image:url('../images/anyvid_logo.png');}
+#bendBash {background: #fa6900 url('../images/bendbash-logo.png') no-repeat center;}
+#alternativeOpportunity {background-image:url('../images/OppAppLogo.png');}
+#hoodMarathon {background-image:url('../images/hoodmarathonlogo.png');}
+#petFinder {background-image:url('../images/petFinderLogo.png');}
+
+
+/*==================Media===============*/
+@media only screen and (max-width: 1450px) {
+  #projectsHeader {
+    height: 20em;
+    background-position: 0 -20em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #projectsHeader {
+    height: 20em;
+    background-position: 0 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .largeh1 {
+    font-size: 6em !important;
+  }
+}

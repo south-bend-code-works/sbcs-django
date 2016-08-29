@@ -1,0 +1,24 @@
+body {
+  background-color:green;
+  color:blue;
+  background-image: url("./noflexzone.jpeg")
+}
+
+h1 {
+front-size:4em;
+color:red;
+}
+.about{background-color:yellow; }
+.community{background-color:purple; }
+
+h2{
+color:red;
+}
+
+.partofcommunity{background-color:yellow; }
+
+.leftoutofcommunity{background-color:purple; }
+
+.tometechnologymeans{background-color:yellow; }
+
+.myfavoritewebsites{background-color:purple; }

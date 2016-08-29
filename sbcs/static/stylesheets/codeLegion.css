@@ -1,0 +1,141 @@
+/***************** code legion header *****************/
+
+#codeLegionHeader {
+  height: 25em;
+  background:
+    none,url("../images/code_legion_2016_orange.png"),
+    linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.2)),
+    url("../images/chrisTeaches.JPG");
+  background-repeat: no-repeat;
+  background-size: cover, contain, contain;
+  background-position: right, center, center;
+  color: white;
+  padding: 0;
+}
+
+/***************** legion section 1 *****************/
+
+
+#legionDiv1 {
+  clear:both;
+  background-color: white;
+  padding: 1em 0 2em 0;
+}
+
+#descriptionDiv1 {
+  padding-top: 1em !important;
+  clear:both;
+  background-color: white;
+  color: gray;
+  text-align: justify;
+}
+
+#descriptionDiv1 h3 {
+  text-align: center;
+}
+
+#descriptionDiv1 .first {
+  margin-top: 3em !important;
+}
+/***************** legion section 2 & 3 *****************/
+#legionDiv2 {
+  background-color: #00bfff;
+  color: white;
+}
+
+#legionDiv3 {
+  background-color: #F7931E;
+  color: white;
+}
+
+#legionDiv2,
+#legionDiv3 {
+  clear:both;
+  padding: 1em 0 2em 0;
+  text-align: justify;
+}
+
+#legionDiv2 h1,
+#legionDiv3 h1 {
+	font-size: 5em;
+  text-align: center;
+}
+
+#legionDiv2 h2,
+#legionDiv3 h2 {
+	font-size: 3em;
+}
+
+#descriptionDiv2,
+#descriptionDiv3 {
+  padding-top: 1em !important;
+  clear:both;
+}
+
+/***************** legion images 2 & 3 *****************/
+#falcam {
+  background:url('../images/falcamScreenShot.jpg') no-repeat center;
+  height: 40em;
+  background-size: cover;
+}
+
+#dataViz {
+  background:url('../images/dataViz.png') no-repeat top;
+  height: 40em;
+  background-size: contain;
+}
+
+
+/*==================Media===============*/
+@media only screen and (max-width: 1450px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 770px) {
+
+  #falcam {
+    background-size: contain;
+  }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  #legionDiv1 h2 {
+    font-size: 2em;
+  }
+
+  #legionDiv3 h1 {
+    font-size: 3em;
+  }
+
+  #falcam {
+    background-size: contain;
+    height: 15em;
+  }
+
+  #dataViz {
+    height: 20em;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: #2E4923;
+      text-align:center;
+      background-image: url("http://tiger.towson.edu/~jleese2/lambeau-field.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+.name {
+  color: #E9E7D6
+  ;
+}
+img {
+  width: 25%;
+  height: 25%;
+}
+
+
+
+.h2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: ##2E4923;
+  text-align: left;
+  font-size: 24;
+}
+
+p {
+  color:#2F6331;
+}
+
+a {
+  color: #E9E7D6;
+
+}
+.links {
+  height: 200px;
+  width: 100%;
+}

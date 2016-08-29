@@ -1,0 +1,220 @@
+{% extends 'base.html' %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="/static/stylesheets/students.css">
+  <link rel="stylesheet" href="/static/stylesheets/projects.css">
+  <link rel="stylesheet" href="/static/stylesheets/about.css">
+  <link rel="stylesheet" href="/static/stylesheets/cPartner.css">
+  <link rel="stylesheet" type="text/css" href="./donut/doughnutit.css">
+{% endblock %}
+
+{% block scripts %}
+  <script src="/static/donut/Chart.js"></script>
+  <script src="/static/donut/doughnutit.js"></script>
+  <script src="/static/waypoint/jquery.waypoints.min.js"></script>
+{% endblock %}
+
+{% block content %}
+  <div id="spacing"></div>
+
+  <iframe src="https://www.youtube.com/embed/xE9mqgO1_AI" frameborder="0" allowfullscreen></iframe>
+
+  <div id="aboutTheProgram" class="row noMargin">
+    <div class="col-md-10 col-md-offset-1">
+      <h2 class="centerH blueText">South Bend Code School allows students
+        to learn the fundamentals of web development &#38; design, software craftsmanship,
+        and entrepreneurship.</h2><br>
+
+      <p class="lead">The South Bend Code School is an <strong class="orangeText">app incubator</strong>
+         for teens and young adults that grants students experience conceptualizing, designing, and building an application
+          that works toward solving real world problems. Whether a student is looking for a highly employable skill set
+          or a better foundation to propel them into higher education, South Bend Code School is here to help.
+      </p><br>
+
+      <p class="lead">At the end of the program, all Code School students present their applications
+         at a major tech company, such as Google or Facebook, and exit with a portfolio of work.
+         Additionally, students have the opportunity to join Code Legion, a weekly class for students
+         who have been through our initial program and want to continue building and learning with technology.
+      </p>
+
+      <h3 class="centerH">No experience, no problem! Code School is dedicated to teaching
+        students coding, no matter how little or much experience they have.</h3>
+
+    </div>
+  </div>
+
+  <div id="stDesc" class="row noMargin bandBlue">
+    <div class="col-md-6 col-md-offset-1">
+      <h1 class="futura">Our Students</h1>
+      <p class="lead">At SBCS, the student is our number one priority. By keeping
+        the student to teacher ratio at 5:1, we make sure that each student can
+        excel in our program and beyond. Students will build their own applications,
+        learn skills in entrepreneurship, college preparation, and professional
+        development. </p>
+    </div>
+    <div class="col-md-4">
+      <div id="studentImage"></div>
+    </div>
+  </div>
+
+  <div id="spacing"></div>
+
+  <div class="row noMargin">
+    <div id="diversity" class="col-md-10 col-md-offset-1">
+      <p class="lead">At SBCS diversity is important. We work to promote a
+        culturally diverse and inclusive atmosphere for all of our students.
+        Bringing students together of different cultural backgrounds enhances
+        complex thinking and yeilds a better classroom experience for all.</p>
+    </div>
+  </div>
+
+  <div class="row noMargin centerH" >
+    <div class="col-md-6">
+        <h1 class="futura">Female Students</h1>
+        <div id="myDoughnutFem"></div>
+    </div>
+
+    <div class="col-mid-6 centerH">
+        <h1 class="futura">Minority Students</h1>
+        <div id="myDoughnutMin"></div>
+    </div>
+  </div>
+  <div id="spacing"></div>
+
+
+  <div id="instDesc" class="row noMargin bandOrange">
+    <div class="col-md-4 col-md-offset-1">
+      <div id="instructorImage"></div>
+    </div>
+
+    <div class="col-md-6">
+      <h1 class="futura">Our Instructors</h1>
+      <p class="lead">The instructors we bring into the classroom come with a unique combination of skills. They have the ability to dive
+        into the technical as well as the personal. These are not just computer scientists; they are computer scientists with heart.
+        They have the rare ability to relate to students from all backgrounds on a personal level and they have the know-how
+        to get a student to break through the road blocks to technical knowledge.
+        Our instructors want to see our students succeed, and are committed to working with them to obtain the technical
+        skills that will lead to new levels of accomplishment, academically and professionally.</p>
+    </div>
+  </div>
+
+  <div class="row noMargin">
+    <div class="col-md-10 col-md-offset-1">
+      <h1 class="futura">Our Team</h1>
+    </div>
+  </div>
+
+  <div id="projectsContainer">
+    <div class="row padded noMargin">
+      <div id="alexSejdinaj" class="col-md-2 col-md-offset-2 projectImage"></div>
+      <div class="col-md-6">
+        <h1>Alex Sejdinaj</h1>
+        <p>Alex&#146;s first experience with code came when he was playing in a rock band.
+          He would make edits to the code on template sites like WordPress or Tumblr that
+          he made for his band. After jumping into the deep end and experiencing the world
+          of code first hand in the city of Nashville, TN he wound up in South Bend, IN with
+          a job at the University of Notre Dame. After realizing the potential for South
+          Bend to be a technology town he co-founded the South Bend Code School.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="projectsContainer">
+    <div class="row padded noMargin">
+      <div id="chrisFrederick" class="col-md-2 col-md-offset-2 projectImage"></div>
+      <div class="col-md-6">
+        <h1>Chris Frederick</h1>
+        <p>Chris&#146; first experience with code was in middle school. While the rest
+          of his class entered the science fair by delivering the standard
+          cardboard displays and paper mache volcanos, Chris had hand coded his
+          own interactive 3D application of the earth&#146;s crust. Now, with 4 kids
+          of his own and a lifetime of technology experience under his belt,
+          Chris co-founded the South Bend Code School to show students that tech
+          skills are more than achievable no matter your level of experience.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="projectsContainer">
+    <div class="row padded noMargin">
+      <div id="alexLiggins" class="col-md-2 col-md-offset-2 projectImage"></div>
+      <div class="col-md-6">
+        <h1>Alex Liggins</h1>
+        <p>Alex&#146;s first experience with code was when she taught herself to code
+          in order to teach others. She realized early on while working with
+          programs at the Robinson Community Learning Center, the Boys and Girls
+          Club, and Rise Up Academy, that coding was an immensely useful skill
+          to have whether one is college bound or prepping for a career. It was
+          this realization that brought her to co-founding the South Bend Code School.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="projectsContainer">
+    <div class="row padded noMargin">
+      <div id="davidMattia" class="col-md-2 col-md-offset-2 projectImage"></div>
+      <div class="col-md-6">
+        <h1>David Mattia</h1>
+        <p>David&#146;s first experience with code was writing programs on his Ti-84 calculator
+          in middle school. Since then he hasn't looked back. Currently a Computer Science
+          student at the University of Notre Dame, David found the South Bend Code School
+          after hearing about it in a meeting. After reaching out and asking if he could help,
+          the rest of us at SBCS haven't let him leave.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="projectsContainer">
+    <div class="row padded noMargin">
+      <div id="brandonRich" class="col-md-2 col-md-offset-2 projectImage"></div>
+      <div class="col-md-6">
+        <h1>Brandon Rich</h1>
+        <p>The first time Brandon saw code was in 3-2-1 Contact Magazine. The
+          idea was to transcribe the code into your own computer, which he didn't
+          have at the time, but Brandon would read the lines and try to figure
+          out how they worked. His first experience coding  on a computer came
+          later, as a junior in high school, coding BASIC in class. With a love
+          of code and a passion to make the world a better place, Brandon has
+          jumped into the deep end with the South Bend Code School to eliminate
+          the barriers between people and technology.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="outer" style="row noMargin">
+    <h1 class="futura col-md-10 col-md-offset-1"><strong>Community Partners</strong></h1>
+  </div>
+
+  <div id="communityPartners" class="row noMargin">
+    <a href="https://www.bethelcollege.edu/">
+      <div class="col-md-3 comPartner bethel"></div>
+    </a>
+    <a href="https://www.bgcsjc.org/">
+      <div class="col-md-3 comPartner BAGCSJ"></div>
+    </a>
+    <a href="https://www.southbendin.gov/">
+      <div class="col-md-3 comPartner cityofSB"></div>
+    </a>
+    <a href="http://www.cfsjc.org/">
+      <div class="col-md-3 comPartner commFoundation"></div>
+    </a>
+    <a href="http://www.in.gov/dwd/JAG.htm">
+      <div class="col-md-3 comPartner JAG"></div>
+    </a>
+    <a href="https://www.jjconline.org/">
+      <div class="col-md-3 comPartner JJC"></div>
+    </a>
+    <a href="http://www.mphpl.org/">
+      <div class="col-md-3 comPartner library"></div>
+    </a>
+    <a href="http://www.metronetzing.org/">
+      <div class="col-md-3 comPartner metronet"></div>
+    </a>
+    <a href="http://rclc.nd.edu/">
+      <div class="col-md-3 comPartner RCLC"></div>
+    </a>
+    <a href="http://www.gotoworkone.com/">
+      <div class="col-md-3 comPartner WorkOne"></div>
+    </a>
+  </div>
+{% endblock %}

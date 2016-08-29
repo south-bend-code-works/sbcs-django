@@ -1,0 +1,39 @@
+#applyHeader {
+  height: 25em;
+  background:url("../images/typer.JPG") no-repeat top left;
+  background-size: cover;
+  background-position: 0 -15em;
+  color: white;
+  padding: 0;
+}
+
+/*==================Media===============*/
+@media only screen and (max-width: 1450px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+  #applyUs h1 {
+    padding-top: 3em;
+    text-align: center;
+    font-size: 2em !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .largeh1 {
+    font-size: 5em !important;
+  }
+  #applyHeader {
+    height: 26em;
+    background-size: cover;
+    background-position: 0 -2em;
+    color: white;
+  }
+
+  #applyUs h1 {
+    padding-top: 1em;
+    /*clear: both;*/
+  }
+
+}

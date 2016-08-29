@@ -1,0 +1,64 @@
+body {
+   background-color: orange;
+   color:black;
+   font-size: 30px;
+   text-align: center
+}
+
+h1 {
+  color: black;
+}
+
+p{
+  font-weight: bold;
+}
+
+.blackdog {
+color: black;
+
+}
+#bigH1{
+  color: white;
+  font-size: 3em;
+
+}
+#redDiv{
+  background-color: red;
+  background-image: url("./Homer Simpson.png");
+  background-attachment: fixed;
+  margin-top: 5%;
+
+}
+#love {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-image: url("./funny guy.jpg");
+  background-attachment: fixed;
+}
+#self {
+  border: 5px solid silver;
+  width: 60%;
+  margin-left: 150px;
+  /*padding-top: 40px;*/
+}
+#caption{
+  display: inline-block;
+}
+#facebook{
+ text-align: left;
+ margin-left: 200px
+ }
+
+ img  { border: 32px dotted black;
+
+ }
+ button { background-color: black;
+   border: none;
+   color: #663399;
+   padding: 15px;
+ display:inline-block;
+ font-size: 30px;
+ border-radius: 50%;
+ }

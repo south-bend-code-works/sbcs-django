@@ -1,0 +1,28 @@
+body{
+  background-color: purple;
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+}
+h1 {
+  font-size: 5em;
+  color: black;
+}
+
+p{
+  font-size: 40px ;
+}
+
+img{
+  width: 25%;
+  height: 25%;
+
+}
+#real{
+   background-color: white;
+   color:purple;
+  padding: 25px;
+}
+#paci {
+  margin: 25px;
+}

@@ -1,0 +1,29 @@
+#hociHeader {
+  height: 25em;
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.2)), url("../images/chrisTeaches.JPG") no-repeat center;
+  background-size: cover;
+  /*background-position: 0 -2em;*/
+  color: black;
+  padding: 0;
+}
+
+#introHeader {
+  text-align: center;
+  margin-bottom: 2em;
+  border-bottom: 2px solid lightgray;
+}
+
+#introHeader h1{
+  font-size: 6em !important;
+}
+
+#introHeader p{
+  font-size: 2em !important;
+}
+
+#endingHeader {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-top: 2px solid lightgray;
+}

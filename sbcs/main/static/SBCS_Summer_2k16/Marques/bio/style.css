@@ -1,0 +1,123 @@
+
+body {
+background-color: #800517;
+text-align: center;
+color: black;
+}
+
+h1 {
+  color: #CC6600
+}
+
+h2 {
+  color: #800517;
+  font-style: oblique;
+
+}
+
+.WhatI {
+  text-align: left;
+}
+
+div {
+  background-color: white;
+}
+
+.val {
+  color: black
+}
+
+
+.p {
+  padding-bottom: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.j {
+  padding-bottom: 20px;
+  width: 100%
+}
+
+img {
+  border: 25px dotted #800517;
+  padding: 20px;
+  margin: 50px;
+}
+
+.pv {
+  padding-bottom: 20px;
+  color: #800517;
+}
+
+button {
+  background-color: #CC6600; /*orange*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 20px;
+}
+
+#purple {
+  font-style: oblique;
+}
+
+#white {
+  font-style: italic;
+}
+
+#yellow {
+  font-style: italic;
+}
+
+#green {
+  font-style: italic;
+}
+
+#purple:hover {
+  background-color: purple;
+}
+
+#white:hover {
+  background-color: white;
+}
+
+#yellow:hover {
+  background-color: yellow;
+}
+
+#green:hover {
+  background-color: green;
+}
+
+#warped {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+#container {
+  padding-left: 5em;
+}
+
+.bgi {
+  background-image: url("./of.png");
+  background-attachment: fixed;
+}
+
+.bgm {
+  background-image: url("./koi.png");
+  background-repeat: no-repeat;
+  background-attachment:inherit;
+  background-size: cover;
+}

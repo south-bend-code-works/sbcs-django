@@ -1,9 +1,70 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>South Bend Code School</title>
-	</head>
-	<body>
-		<h3>Hello, World!</h3>
-	</body>
-</html>
+{% extends 'base.html' %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="/static/stylesheets/students.css">
+  <link rel="stylesheet" href="/static/stylesheets/projects.css">
+  <link rel="stylesheet" href="/static/stylesheets/program.css">
+{% endblock %}
+
+{% block content %}
+  <div id="PPCP2" class="row noMargin ">
+    <h1 class="centerH futura" >NOW ACCEPTING APPLICATIONS</h1>
+    <div id="outerBottom" style="width:100%">
+      <form action="./program.html">
+        <input type="submit" value="OPEN ENROLLMENT" class="buttonOEtopHome"/>
+      </form>
+    </div>
+  </div>
+
+  <div class="row noMargin">
+    <div id="missionStatement" class="col-md-10 col-md-offset-1">
+      <h1 class="futura">ELIMINATING THE BARRIERS BETWEEN PEOPLE, TECHNOLOGY, AND JOBS</h1>
+      <p class="lead grayBody">South Bend Code School came into existence as a way to grow tech talent.
+        As practitioners in the technology space, we have come to realize that
+        there is a large population that has never been exposed to technology
+        and coding, and many people are unable to obtain the desired training in
+        those areas. In our program, we strive to educate and give coding
+        experience to people from all walks of life.</p>
+    </div>
+  </div>
+
+  <a href="./bios.html">
+    <div id="toStudent" class="row noMargin">
+      <div class="col-md-12" id="bios">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="futura">STUDENT BIOS</h1>
+            <p class="lead">click here to see the bio pages of students who
+              have been through our programs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <div class="row noMargin">
+    <div id="ourStudents" class="col-md-10 col-md-offset-1">
+      <h1 class="futura">OUR STUDENTS</h1>
+      <p class="lead grayBody">Students who go through South Bend Code School programs
+        learn the fundamentals of coding by creating two projects for their
+        portfolios. The projects consist of a bio page about them, and
+        an application geared toward community betterment. Check out
+        our students and their projects!</p>
+    </div>
+  </div>
+
+  <a href="./projects.html">
+    <div class="row noMargin">
+      <div class="col-md-12" id="mainProjectsImage">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="futura">PROJECTS</h1>
+            <p class="lead">click here to see the applications our
+              students have built</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+
+{% endblock %}

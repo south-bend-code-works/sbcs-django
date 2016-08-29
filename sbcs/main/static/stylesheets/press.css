@@ -1,0 +1,89 @@
+#pressHeader {
+  height: 25em;
+  background:url("../images/pjandciarra.jpg") no-repeat top left;
+  background-size: cover;
+  background-position: 0 -25em;
+  color: white;
+  padding: 0;
+
+}
+
+
+#pressContainer {
+  /*height: 100%;*/
+  clear: both;
+
+}
+
+.vid {
+  height: 180px;
+  margin-top: 2em;
+}
+
+.pressRow {
+  height: 20em;
+
+}
+
+.pressArticle {
+  margin-top: 2em ;
+  background-size: contain;
+  background-clip:content-box;
+  height: 180px;
+
+}
+
+.pressArticle h1 {
+  padding: 0.2em 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.entrepeneurArticle {
+  background: url('../images/sbcsEntrepeneurPress.jpg') no-repeat center;
+
+
+}
+
+.rcniArticle {
+  background: url('../images/rcni_article.png') no-repeat center;
+
+}
+
+.sicArticle {
+  background: url('../images/sci_innovation_prize_logo.png') no-repeat center;
+
+}
+
+.sbcawArticle {
+  background: url('../images/sbcawArticle.jpg') no-repeat center;
+
+}
+
+.ndmagArticle {
+  background: url('../images/googleCardboard.jpg') no-repeat center;
+
+}
+
+
+
+
+/*==================Media===============*/
+@media only screen and (max-width: 1450px) {
+  #pressHeader {
+    height: 25em;
+    background-position: 0 -25em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #pressHeader {
+    height: 20em;
+    /*background-position: 0 0em;*/
+  }
+}
+
+/*@media only screen and (max-width: 600px) {
+
+}*/
