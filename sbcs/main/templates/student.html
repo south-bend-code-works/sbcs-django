@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block stylesheets %}
+  <link rel="stylesheet" href="/static/stylesheets/students.css">
+{% endblock %}
+
+{% block content %}
+  <div id="studentContainer" class="fullWidth">
+  </div>
+
+  <div  class="row noMargin ">
+    <div class="col-md-10 col-md-offset-1">
+		<a href="{{ student.bioPage.link }}" id="stud{{ student.id }}" class="student">
+	      <h2 class="name">{{ student.firstName }}</h2>
+	    </a>
+    </div>
+  </div>
+{% endblock %}
+
+{% block style %}
+{% endblock %}

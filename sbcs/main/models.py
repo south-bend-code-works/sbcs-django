@@ -22,11 +22,16 @@ class BioPage(models.Model):
 	"""
 
 	def __unicode__(self):
-		return self.creator.fullName + "'s Personal Biopage"
+		if self.creator is not None:
+			return self.creator.fullName + "'s Personal Biopage"
+		return "Unclaimed Bio Page"
 	
 	@property
 	def creator(self):
-		return Student.objects.get(bioPage=self)
+		try:
+			return Student.objects.get(bioPage=self)
+		except Exception:
+			return None
 
 class Project(models.Model):
 	PROJECT_TYPE_CHOICES = (
@@ -53,6 +58,7 @@ class Student(models.Model):
 	birthday = models.DateTimeField()
 	quote = models.CharField(max_length=1000, null=True, blank=True)
 	bioPage = models.ForeignKey(BioPage)
+	image = models.ImageField(upload_to="studentImages/")
 
 	def __unicode__(self):
 		return self.fullName

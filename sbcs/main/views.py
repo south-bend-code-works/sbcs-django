@@ -7,6 +7,9 @@ def index(request):
 def about(request):
 	return render(request, 'about.html')
 
+def student(request, student_id):
+	return render(request, 'student.html', {"student": Student.objects.get(id=student_id)})
+
 def students(request):
 	return render(request, 'students.html', {"students": Student.objects.all()})
 

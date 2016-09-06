@@ -17,10 +17,30 @@
   <div  class="row noMargin ">
     <div class="col-md-10 col-md-offset-1">
 		{% for student in students %}
-			<a href="{{ student.bioPage.link }}" id="stud{{ student.id }}" class="student">
+			<a href="{% url 'student' student.id %}" id="stud{{ student.id }}" class="student">
 		      <h2 class="name">{{ student.firstName }}</h2>
 		    </a>
 		{% endfor %}
     </div>
   </div>
+{% endblock %}
+
+{% block style %}
+	.student:hover {
+		text-decoration: none;
+	}
+
+	{% for student in students %}
+	#stud{{ student.id }}:hover {
+		background-image: url('{{ student.image.url }}');
+	}
+
+	#stud{{ student.id }} {
+		background: linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('{{ student.image.url }}');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		overflow: hidden;
+	}
+	{% endfor %}
 {% endblock %}
