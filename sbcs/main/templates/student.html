@@ -5,17 +5,105 @@
 {% endblock %}
 
 {% block content %}
-  <div id="studentContainer" class="fullWidth">
-  </div>
-
-  <div  class="row noMargin ">
-    <div class="col-md-10 col-md-offset-1">
-		<a href="{{ student.bioPage.link }}" id="stud{{ student.id }}" class="student">
-	      <h2 class="name">{{ student.firstName }}</h2>
-	    </a>
+  <div class="row noMargin">
+    <div class="col-xs-12 row" id="studentHeader">
+      <div class="col-xs-s8 col-xs-offset-xs2 col-md-4 col-md-offset-m0 row">
+        <img class="col-xs-8 col-xs-offset-2" src="/{{ student.image.url }}"/>
+      </div>
+      <div class="col-xs-12 col-md-8 row">
+        <h1 class="col-xs-12" id="studentName">{{ student.fullName }}</h1>
+        <blockquote class="col-xs-12 vertical-center">
+           <span id="innerQuote">{{ student.quote }}</span>
+        </blockquote>
+      </div>
     </div>
+    
+    <div class="col-xs-12 row" id="viewMyBioRow">
+      <a href="{{ student.bioPage.link }}">
+        <button type="button" class="btn btn-info col-xs-10 col-xs-offset-1" id="bioPageButton">
+          <span id="innerButton">View My BioPage</span>
+        </button>
+      </a>
+    </div>
+
+    {% if student.hasProjects %}
+    <div class="col-xs-10 col-xs-offset-1 row" id="projects">
+      <h1 class="col-xs-12" style="text-align: center;">Projects</h1>
+      {% for project in student.projects %}
+      <div class="project col-xs-12 row">
+        <div class="col-xs-12 col-md-3 row">
+          <a href="{{ project.link }}">
+            <img class="col-xs-12" src="/{{ project.image.url }}"/>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-9 col-md-offset-0 row">
+          <a href="{{ project.link }}">
+            <h3 class="col-xs-12">{{ project.title }}</h3>
+          </a>
+          <blockquote class="col-xs-12 vertical-center" id="projectQuote">
+            <span id="innerQuote">{{ project.description }}</span>
+          </blockquote>
+        </div>
+        <hr class="col-xs-10 col-xs-offset-1">
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 {% endblock %}
 
 {% block style %}
+  .quote {
+    color: red;
+    font-size: 2em;
+    display: inline-block;
+  }
+  #projectQuote {
+    margin-top: 3px;
+    min-height: 100px;
+  }
+  #studentQuote {
+    display: inline-block;
+  }
+  #studentName {
+    height: 50px;
+  }
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #00bfff;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    min-height: 200px;
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+  #innerQuote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+  }
+  .vertical-center {
+    display: flex;
+    align-items: center;
+  }
+  #viewMyBioRow {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  #bioPageButton {
+    height: 80px;
+  }
+  #projects {
+    padding-left: 0px;
+  }
 {% endblock %}
