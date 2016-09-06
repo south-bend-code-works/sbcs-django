@@ -10,7 +10,7 @@
   <div id="PPCP2" class="row noMargin ">
     <h1 class="centerH futura" >NOW ACCEPTING APPLICATIONS</h1>
     <div id="outerBottom" style="width:100%">
-      <form action="./program.html">
+      <form action="{% url 'program' %}">
         <input type="submit" value="OPEN ENROLLMENT" class="buttonOEtopHome"/>
       </form>
     </div>
@@ -28,7 +28,7 @@
     </div>
   </div>
 
-  <a href="./bios.html">
+  <a href="{% url 'students' %}">
     <div id="toStudent" class="row noMargin">
       <div class="col-md-12" id="bios">
         <div class="row">
@@ -53,7 +53,7 @@
     </div>
   </div>
 
-  <a href="./projects.html">
+  <a href="{% url 'projects' %}">
     <div class="row noMargin">
       <div class="col-md-12" id="mainProjectsImage">
         <div class="row">

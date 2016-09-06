@@ -5,6 +5,7 @@ urlpatterns = [
 	url(r'^$', views.index, name="home"),
 	url(r'^about$', views.about, name="about"),
 	url(r'^students$', views.students, name="students"),
+	url(r'^students/([0-9]+)$', views.student, name="student"),
 	url(r'^codeLegion$', views.codeLegion, name="Code Legion"),
 	url(r'^press$', views.press, name="press"),
 	url(r'^program$', views.program, name="program"),
